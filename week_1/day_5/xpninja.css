@@ -1,0 +1,42 @@
+body {
+  background-color: #E0FFFF;
+}
+.title{
+	color:black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+li {
+  float: left;
+}
+.rightnav, .searchbar{
+	float:right;
+}
+
+li a {
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: darkgrey;
+}
+/*
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/

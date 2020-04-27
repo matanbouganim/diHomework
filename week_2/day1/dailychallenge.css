@@ -1,0 +1,78 @@
+
+.grid > div {
+  width: 250px; height: 200px;
+  border: 1px solid #444;
+  margin: 20px;
+  padding: 20px 10px;
+  font: 400 1.5em sans-serif;
+}
+
+.grid > div > span {
+  background: hsla(0, 0%, 100%, 0.65);
+  padding: 5px 10px;
+}
+
+
+
+/*orange checker*/
+
+
+.orangecheckerboard{
+  background-color : white ;
+  background-image: repeating-linear-gradient(
+  	 -45deg,
+    red,
+    red 10px,
+    brown 10px,
+    orange 20px
+  ),
+  linear-gradient(
+    to bottom,
+    #eee,
+    #999
+  );           
+}
+
+
+/*black checker*/
+
+.blackboard{
+  background-color: white; 
+  background-image: linear-gradient(
+  	90deg,
+  	white,
+  	white 50%,
+  	black 50%
+  	),
+  linear-gradient(
+  	0deg,
+        grey 50%,
+        transparent 0
+        );
+background-size: 25px 25px;
+ 
+}
+
+
+
+/*picnic table style */
+
+.picnic-table {
+  background: white;
+  background-image: linear-gradient(
+  	90deg,
+    rgba(255, 0, 0, 0.4)50%,
+    transparent 0
+    ),
+
+    linear-gradient(
+    	0deg,
+        rgba(255, 0, 0, 0.4) 50%,
+        transparent 0
+        );
+  background-size: 25px 25px;
+}
+
+
+
+
