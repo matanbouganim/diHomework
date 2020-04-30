@@ -1,59 +1,65 @@
 
-.grid > div {
-  width: 250px; height: 200px;
-  border: 1px solid #444;
-  margin: 20px;
-  padding: 20px 10px;
-  font: 400 1.5em sans-serif;
+.picnic-table {
+
+  width: 335px; height: 200px;
+  border: 1px solid #444; 
+  margin-left: 30%;
 }
 
-.grid > div > span {
-  background: hsla(0, 0%, 100%, 0.65);
-  padding: 5px 10px;
-}
 
 
 
 /*orange checker*/
 
 
-.orangecheckerboard{
-  background-color : white ;
-  background-image: repeating-linear-gradient(
-  	 -45deg,
-    red,
-    red 10px,
-    brown 10px,
-    orange 20px
-  ),
-  linear-gradient(
-    to bottom,
-    #eee,
-    #999
-  );           
+.orgpattern {
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: repeat(16, 20px);
+    grid-template-columns: repeat(16, 20px);
+    grid-gap: 1px;
 }
 
-
-/*black checker*/
-
-.blackboard{
-  background-color: white; 
-  background-image: linear-gradient(
-  	90deg,
-  	white,
-  	white 50%,
-  	black 50%
-  	),
-  linear-gradient(
-  	0deg,
-        grey 50%,
-        transparent 0
-        );
-background-size: 25px 25px;
- 
+.org {
+    background-color: #ff7100;
 }
 
+.tan {
+    background-color: #ffb26d;
+}
 
+.brn {
+    background-color: #a84a00;
+}
+
+.blkpattern {
+
+    margin-left: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: repeat(16, 20px);
+    grid-template-columns: repeat(16, 20px);
+    grid-gap: 1px;
+}
+
+.lite {
+    background-color: #d5d5d5;
+}
+
+.liteg {
+    background-color: #a5a5a5;
+}
+
+.grey {
+    background-color: #464545;
+}
+
+.blk {
+    background-color: black;
+}
 
 /*picnic table style */
 
