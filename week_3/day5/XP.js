@@ -56,12 +56,13 @@
 // Ask the user for a number
 // Check if an array contains this given number.
 
-var numdatabase = [40, 100, 1, 5, 25, 10, 20, 300, 18, 118,];  
+// var numdatabase = [40, 100, 1, 5, 25, 10, 20, 300, 18, 118,];  
 
 
-var usernum = prompt ("please enter a number ")
-var num1 = parseInt(usernum);
+// var usernum = prompt ("please enter a number ")
+// var num1 = parseInt(usernum);
 
 
-console.log(numdatabase.includes(num1));
+// console.log(numdatabase.includes(num1));
+
 
