@@ -1,5 +1,5 @@
 let text = prompt("Enter a sentence:")
-text_arr = text.split(" ");
+let text_arr = text.split(" ");
 console.log(text_arr)
 const longest = get_longest(text_arr);
 const border = new Array(longest + 5).join("*");
