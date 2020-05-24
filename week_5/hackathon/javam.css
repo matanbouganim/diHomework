@@ -1,10 +1,7 @@
-/* Header*/
-  .header {
-  background: url(javameister1.jpg) no-repeat center;
-  background-size: cover;
-  height:550px;
-  position: relative;
 
+#logo-container img {
+   width: 100%;
+   height: auto;
 }
 
 body {
