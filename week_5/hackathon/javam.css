@@ -135,13 +135,18 @@ body {
 
 
 /* sign up button*/ 
+.signupbutton{
+  text-align: center;
+}
 
 .homeregisterButton {
   background-color: #008CBA;
+  width: 200px;
+  height: 50px;
   border: none;
   color: white;
   padding: 15px 32px;
-  margin: 25px;
+  margin: 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -254,5 +259,56 @@ body {
  
 
 
+ /* SIGN UP FORM ON SIGNUP PAGE*/
+ .signupForm 
+{
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background: white;
+  padding:20px;
+  margin:8% auto 0;
+  font-family: sans-serif;
 
 
+}
+.inputBox{
+   border-radius: 20px;
+   padding:10px;
+   margin:10px 0 ;
+   width: 100%;
+   border : 1px solid #999;
+   outline:none;
+}
+button {
+  color :white;
+  width: 100%;
+  padding:10px;
+  border-radius:20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline:none;
+  cursor: pointer; 
+}
+.signUpBtn{
+  background-color: #1c8adb;
+
+}
+.faceBookBtn { 
+background-color: #21afde; }
+a { 
+  text-decoration: none;
+
+ }
+
+hr {
+  margin-top: 20px;
+  width: 80%;
+
+}
+.or
+{
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+}
