@@ -312,3 +312,27 @@ hr {
   width: 30px;
   margin: -19px auto 10px;
 }
+
+
+/*MY JAVA*/
+
+.personalityQuiz {
+  text-align: center; 
+  color: white; 
+  margin: 25px 110px;
+  font-size: 35px;
+  font-family: Impact, fantasy
+}
+
+.quizButton{
+   color :white;
+   background-color: grey;
+  width: 100%;
+  padding:10px;
+  border-radius:20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline:none;
+  cursor: pointer; 
+}
