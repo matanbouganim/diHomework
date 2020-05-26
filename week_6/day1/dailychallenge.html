@@ -41,6 +41,7 @@ const array = [
 // });
 
 
+
 //2:
 // array.forEach(function(array){
 // (array.score > 5)?console.log(array.username + " scored above 5"): console.log(array.username + " did not score above 5")
@@ -48,10 +49,11 @@ const array = [
 
 
 //3:
-// array.forEach(function(array){
-// (array.score > 0)?console.log(array.score): console.log("no score")
-// });
 
+const total = array.reduce((currentTotal, array)=> {
+   return array.score + currentTotal
+}, 0)
+console.log(total)
 
 // 1.Create an array using forEach that has all the usernames with a “!” to each of the usernames
 
