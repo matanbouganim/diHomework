@@ -1,0 +1,27 @@
+<!-- // Turn the below users object (value is their ID number) 
+//  	const users = { user1: 18273, user2: 92833, user3: 90315 } 
+//		into an array: [ [ 'user1', 18273 ], [ 'user2', 92833 ], [ 'user3', 90315 ] ]
+// Change the output array above in order to have the user’s IDs multiplied by 2
+// Excepted output: [ [ 'user1', 36546 ], [ 'user2', 185666 ], [ 'user3', 180630 ] ] -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DailyChallenge</title>
+</head>
+<body>
+<script> 
+
+const users = { user1: 18273, user2: 92833, user3: 90315 } 
+
+const newusers = Object.entries(users);
+
+newusers.forEach(([key, value])=>{
+	console.log(key);
+	console.log (value * 2);
+});
+
+
+</script>
+</body>
+</html>
